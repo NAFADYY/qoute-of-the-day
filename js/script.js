@@ -30,7 +30,7 @@ function qouteGenerator()
         }
     ]
 
-    var random = Math.floor(Math.random() * qouteList.length);
+    let random = Math.floor(Math.random() * qouteList.length);
 
     document.getElementById("h4").innerHTML = `<i class="fas fa-quote-left"></i>  ${qouteList[random].qoute}  <i class="fas fa-quote-right"></i>`;
     
